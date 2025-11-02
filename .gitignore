@@ -1,0 +1,43 @@
+# Ignore virtual environments
+venv/
+llm_env/
+.env/
+
+# Ignore model weights and caches
+__pycache__/
+*.pt
+*.bin
+*.ckpt
+*.log
+*.out
+
+# Ignore Hugging Face and dataset caches
+datasets/
+cache/
+data/
+*.arrow
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+
+# Model & dataset files
+*.bin
+*.pt
+*.ckpt
+*.pth
+*.safetensors
+*.zip
+*.tar
+*.gz
+*.npy
+*.pkl
+dataset/
+the-verdict-dataset/
+the-verdict-finetuned/
+outputs/
+the-verdict.txt
